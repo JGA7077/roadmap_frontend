@@ -1,0 +1,21 @@
+{
+  "name": "roadmap_frontend",
+  "version": "1.0.0",
+  "description": "Tópicos abordados no Roadmap para Frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git add . && git commit",
+    "publish": "git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JGA7077/roadmap_frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JGA7077/roadmap_frontend/issues"
+  },
+  "homepage": "https://github.com/JGA7077/roadmap_frontend#readme"
+}
