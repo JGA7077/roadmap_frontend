@@ -1,1 +1,5 @@
 # Internet Explained
+
+## Links Úteis
+
+- [The internet, explained](https://www.vox.com/2014/6/16/18076282/the-internet)
