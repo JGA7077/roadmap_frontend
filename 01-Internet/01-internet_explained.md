@@ -12,5 +12,7 @@ A internet é muito facilmente confundida com a web, porém, a web é apenas uma
 
 ### Quem criou a Internet
 
-A internet começou com a [ARPANET](https://en.wikipedia.org/wiki/ARPANET), uma rede de pesquisa acadêmica, que foi fundada pelos militares americanos. No início, por conta da guerra fria, foi usada para o armazenamento seguro e troca de informações entre sedes militares. Desde seu início, em 1969, a internet teve várias melhorias, e apenas na década de 90 foi disponibilizada para o público em geral.
+A internet começou com a [ARPANET](https://pt.wikipedia.org/wiki/ARPANET), uma rede de pesquisa acadêmica, que foi fundada pelos militares americanos. No início, por conta da guerra fria, foi usada para o armazenamento seguro e troca de informações entre sedes militares. Desde seu início, em 1969, a internet teve várias melhorias, uma delas foi a criação do protocolo [TCP/IP](https://pt.wikipedia.org/wiki/TCP/IP) no ano de 1973, mas apenas no ano de 1983 foi que a ARPANET adotou o protocolo.
+
+### O Protocolo TCP/IP
 
