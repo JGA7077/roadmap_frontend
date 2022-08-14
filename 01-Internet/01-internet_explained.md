@@ -80,3 +80,45 @@ A primeira diferença que se nota entre o IPv4 e o IPv6 é o seu formato: o prim
 - [IPv6 Forum](https://www.ipv6forum.com/)
 - [IPv6 Wikipédia](https://pt.wikipedia.org/wiki/IPv6)
 - [TCP/IP (v4 and v6) Technical Reference - Microsoft](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd379473(v=ws.10)?redirectedfrom=MSDN)
+
+### Como Internet Wireless Funciona?
+
+Nos seus primeiros anos, o acesso à internet era feito primordialmente por cabos físicos. Porém, mais recentemente, o acesso à internet sem fio se tornou cada vez mais comum.
+
+Existem dois tipos básicos de acesso à internet sem fio: wifi e celular. A rede [Wifi](https://pt.wikipedia.org/wiki/Wi-Fi) é relativamente simples. Qualquer um pode comprar equipamento de conexão às redes wifi, afim de providenciar acesso à internet na sua casa ou empresa. As redes Wi-Fi usam espectro não licenciado: frequências eletromagnéticas que estão disponíveis para qualquer pessoa usar gratuitamente. Para evitar que as redes dos vizinhos interfiram umas nas outras, existem limites estritos na potência (e, portanto, no alcance) das redes wifi.
+
+As redes celulares são mais centralizadas. Eles trabalham dividindo o território de serviço em células. Nas áreas mais densas, as células podem ser tão pequenas quanto um único quarteirão; nas áreas rurais, uma célula pode ter quilômetros de extensão. Cada célula tem uma torre em seu centro que presta serviços aos dispositivos de lá. Quando um dispositivo se move de uma célula para outra, a rede automaticamente transfere o dispositivo de uma torre para outra, permitindo que o usuário continue se comunicando sem interrupção.
+
+Cells are too large to use the unlicensed, low-power spectrum used by wifi networks. Instead, cellular networks use spectrum licensed for their exclusive use. Because this spectrum is scarce, it is usually awarded by auction.
+
+As células são muito grandes para usar o espectro não licenciado e de baixa potência usado pelas redes wifi. Em vez disso, as redes celulares usam espectro licenciado para uso exclusivo. Como esse espectro é escasso, geralmente é concedido por leilão.
+
+### O que é a Cloud?
+
+A nuvem (_Cloud_) descreve uma abordagem à computação que se tornou popular no início dos anos 2000. Ao armazenar arquivos em servidores e fornecer software pela Internet, a computação em nuvem oferece aos usuários uma experiência de computação mais simples e confiável. A computação em nuvem permite que consumidores e empresas tratem a computação como uma utilidade, deixando os detalhes técnicos para as empresas de tecnologia.
+
+Por exemplo, na década de 1990, muitas pessoas usavam o Microsoft Office para editar documentos e planilhas. Eles armazenavam documentos em seus discos rígidos. E quando uma nova versão do Microsoft Office foi lançada, os clientes tiveram que comprá-la e instalá-la manualmente em seus PCs.
+
+Por outro lado, o Google Docs é um pacote de escritório em nuvem. Quando um usuário visita docs.google.com, ele obtém automaticamente a versão mais recente do Google Docs. Como os arquivos dela são armazenados nos servidores do Google, eles estão disponíveis em qualquer computador. Melhor ainda, ela não precisa se preocupar em perder seus arquivos em uma falha no disco rígido. (A Microsoft agora tem seu próprio pacote de escritório em nuvem chamado Office 365.)
+
+Há muitos outros exemplos. Gmail e Hotmail são serviços de e-mail em nuvem que substituíram amplamente os clientes de e-mail de desktop, como o Outlook. O Dropbox é um serviço de computação em nuvem que sincroniza automaticamente dados entre dispositivos, evitando que as pessoas precisem carregar arquivos em disquetes. O iCloud da Apple copia automaticamente as músicas e outros arquivos dos usuários do computador desktop para os dispositivos móveis, poupando os usuários do incômodo de sincronizar por meio de uma conexão USB.
+
+A computação em nuvem também está tendo um grande impacto para as empresas. Na década de 1990, as empresas que queriam criar um site precisavam comprar e operar seus próprios servidores. Mas em 2006, a Amazon.com lançou o Amazon Web Services, que permite aos clientes alugar servidores por hora. Isso reduziu a barreira de entrada para a criação de sites e tornou muito mais fácil para os sites expandirem rapidamente a capacidade à medida que se tornam mais populares.
+
+### O que é SSL?
+
+[SSL](https://www.tecmundo.com.br/seguranca/1896-o-que-e-ssl-.htm), é a abreviação de Secure Sockets Layer, é uma família de tecnologias de criptografia que permite aos usuários da Web proteger a privacidade das informações que transmitem pela Internet.
+
+Ao visitar um site seguro, como o Gmail.com, você verá um cadeado ao lado do URL, indicando que suas comunicações com o site estão criptografadas.
+
+Esse bloqueio deve sinalizar que terceiros não poderão ler nenhuma informação que você enviar ou receber. Sob o capô, o SSL faz isso transformando seus dados em uma mensagem codificada que apenas o destinatário sabe como decifrar. Se uma parte mal-intencionada estiver ouvindo a conversa, ela verá apenas uma sequência de caracteres aparentemente aleatória, não o conteúdo de seus e-mails, postagens no Facebook, números de cartão de crédito ou outras informações privadas.
+
+O SSL foi introduzido pela Netscape em 1994. Em seus primeiros anos, era usado apenas em alguns tipos de sites, como sites de bancos online. No início de 2010, Google, Yahoo e Facebook usavam criptografia SSL para seus sites e serviços online. Mais recentemente, houve um movimento para tornar o uso do SSL universal. Em 2015, a Mozilla anunciou que futuras versões do navegador Firefox tratariam a falta de criptografia SSL como uma falha de segurança, como forma de incentivar todos os sites a atualizar. O Google está considerando dar o mesmo passo com o Chrome.
+
+### O que é DNS
+
+O [Domain Name System (DNS)](https://pt.wikipedia.org/wiki/Sistema_de_Nomes_de_Dom%C3%ADnio) é o motivo pelo qual você pode acessar os sites simplesmente digitando seu endereço, www.google.com, por exemplo, em vez de um endereço numérico difícil de lembrar, como 216.146.46.10.
+
+O sistema é hierárquico. Por exemplo, o domínio .com é administrado por uma empresa chamada Verisign. A Verisign atribui subdomínios como google.com e vox.com. Os proprietários desses domínios de segundo nível, por sua vez, podem criar subdomínios como mail.google.com e maps.google.com.
+
+Como os sites populares usam nomes de domínio para se identificarem ao público, a segurança do DNS tornou-se uma preocupação crescente. Criminosos e espiões do governo tentaram comprometer o DNS para se passar por sites populares como facebook.com e gmail.com e interceptar suas comunicações privadas. Um padrão chamado [DNSSEC](https://pt.wikipedia.org/wiki/DNSSEC) busca reforçar a segurança do DNS com criptografia, mas poucas pessoas o adotaram.
